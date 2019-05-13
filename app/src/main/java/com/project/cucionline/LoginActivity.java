@@ -28,7 +28,7 @@ public class LoginActivity extends AppCompatActivity {
         databaseHelper = new DatabaseHelper(this);
         sessionManagement = new SessionManagement(getApplicationContext());
 
-        editTextEmail = (EditText)findViewById(R.id.txtusername);
+        editTextEmail = (EditText)findViewById(R.id.txtemail);
         editTextPassword = (EditText)findViewById(R.id.txtpassword);
 
         btnLogin = (Button)findViewById(R.id.btnlogin);

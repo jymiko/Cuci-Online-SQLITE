@@ -28,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:inputType="number"
         android:hint="no telepon"/>
     <EditText
         android:id="@+id/edtemail"
@@ -40,12 +41,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:inputType="textPassword"
         android:hint="password"/>
     <EditText
         android:id="@+id/edtconfirmpass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:inputType="textPassword"
         android:hint="confirm password"/>
     <EditText
         android:id="@+id/edtmotor"
